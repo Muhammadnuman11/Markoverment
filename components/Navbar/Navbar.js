@@ -25,19 +25,19 @@ export default function Navbar() {
             </div>
             <div className={`w-full block flex-grow md:flex items-center md:w-auto ${isOpen ? "block" : "hidden"}`} >
                 <div className="text-md font-semibold md:w-3/5 w-20 md:flex justify-around">
-                    <Link href="/" className={`block mt-4 md:inline-block md:mt-0 text-[#fbc040] md:text-white ${currentPath === "/" ? "active md:text-black" : ""}`}>
+                    <Link href="/" className={`block mt-4 md:inline-block md:mt-0 text-[#fbc040] md:text-black ${currentPath === "/" ? "text-black md:text-white" : ""}`}>
                         Home
                     </Link>
-                    <Link href="/about" className={`block mt-4 md:inline-block md:mt-0 text-[#fbc040] md:text-white ${currentPath === "/about" ? "active md:text-black" : ""}`}>
+                    <Link href="/about" className={`block mt-4 md:inline-block md:mt-0 text-[#fbc040] md:text-black ${currentPath === "/about" ? "active md:text-black" : ""}`}>
                         About
                     </Link>
-                    <Link href="/products" className={`block mt-4 md:inline-block md:mt-0 text-[#fbc040] md:text-white ${currentPath === "/products" ? "active md:text-black" : ""}`}>
+                    <Link href="/products" className={`block mt-4 md:inline-block md:mt-0 text-[#fbc040] md:text-black ${currentPath === "/products" ? "active md:text-black" : ""}`}>
                         Products
                     </Link>
-                    <Link href="/clients" className={`block mt-4 md:inline-block md:mt-0 text-[#fbc040] md:text-white ${currentPath === "/clients" ? "active md:text-black" : ""}`}>
+                    <Link href="/clients" className={`block mt-4 md:inline-block md:mt-0 text-[#fbc040] md:text-black ${currentPath === "/clients" ? "active md:text-black" : ""}`}>
                         Clients
                     </Link>
-                    <Link href="/contact" className={`block mt-4 md:inline-block md:mt-0 text-[#fbc040] md:text-white ${currentPath === "/contact" ? "active md:text-black" : ""}`}>
+                    <Link href="/contact" className={`block mt-4 md:inline-block md:mt-0 text-[#fbc040] md:text-black ${currentPath === "/contact" ? "active md:text-black" : ""}`}>
                         Contact
                     </Link>
                 </div>
