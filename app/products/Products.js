@@ -2,7 +2,7 @@ import Image from "next/image";
 import Clouds from "../../public/header/Clouds.png";
 // import HomeImg from "../../public/header/home.png";
 
-export default function About() {
+export default function Products() {
   return (
     <>
       <div className="pattern relative h-[1000px] md:h-screen flex">
@@ -15,9 +15,11 @@ export default function About() {
           <div className="h-full w-full md:w-1/2 flex justify-center items-center flex-col mt-5  md:mt-0">
             {/* Company Detail */}
             <div className="z-9 h-2/5 w-4/5 md:w-3/4 flex justify-center items-center flex-col text-white">
-              <h1 className="text-2xl font-bold">About Us</h1>
-              <p className="mt-2 md:mt-3 text-center w-full lg:w-3/4">Markovernment provides social media marketing for small businesses, enterprises and multiple-location companies. No matter if you own a startup or a Fortune 500 company; our social media marketing experts can assist you with your campaign.</p>
-              <p className="mt-2 md:mt-3 text-center w-full lg:w-3/4">Partner with us and let our social media marketing agency boost your brand visibility and integrity!</p>
+              <h1 className="text-2xl font-bold">Products</h1>
+              <p className="mt-2 md:mt-3 text-center w-full lg:w-3/4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit porro at official dolor rerum? Dicta est vero.
+              </p>
+              <p className="mt-2 md:mt-3 text-center w-full lg:w-3/4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit porro at official dolor rerum? Dicta est vero.
+              </p>
             </div>
           </div>
           <div className="h-full w-full md:w-1/2 flex justify-end items-center flex-col">
