@@ -14,11 +14,11 @@ export default function Products() {
         <div className="z-50 w-full flex flex-col md:flex-row">
           <div className="h-full w-full md:w-1/2 flex justify-center items-center flex-col mt-5  md:mt-0">
             {/* Company Detail */}
-            <div className="z-9 h-2/5 w-4/5 md:w-3/4 flex justify-center items-center flex-col text-white">
-              <h1 className="text-2xl font-bold">Products</h1>
-              <p className="mt-2 md:mt-3 text-center w-full lg:w-3/4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit porro at official dolor rerum? Dicta est vero.
+            <div className="z-9 h-4/5 w-4/5 md:w-3/4 flex justify-end items-center flex-col text-white">
+              <h1 className="text-xl sm:text-4xl font-bold">Products</h1>
+              <p className="mt-2 md:mt-3 text-justify w-full lg:w-3/4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit porro at official dolor rerum? Dicta est vero.
               </p>
-              <p className="mt-2 md:mt-3 text-center w-full lg:w-3/4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit porro at official dolor rerum? Dicta est vero.
+              <p className="mt-2 md:mt-3 text-justify w-full lg:w-3/4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit porro at official dolor rerum? Dicta est vero.
               </p>
             </div>
           </div>
