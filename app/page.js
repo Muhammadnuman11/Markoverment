@@ -27,13 +27,13 @@ export default function Home() {
             <div className="z-9 h-2/5 w-4/5 flex justify-center items-center flex-col text-white mt-5 md:mt-0">
               <h1 className="text-xl sm:text-4xl font-bold">
                 <ReactTyped
-                  strings={['Social Media Marketing', 'Digital Marketing', 'Search Engine Optimization', 'Shopify Development', 'Web Development']}
+                  strings={['Social Media Marketing', 'Digital Marketing', 'Search Engine Optimization', 'Graphis Designing', 'Shopify Development', 'Web Development']}
                   typeSpeed={40}
                   loop
                 />
               </h1>
               <p className="mt-2 md:mt-3 text-justify w-full lg:w-9/10">
-                Markoverment offers top-notch digital services, including Social Media Marketing, Digital Marketing, SEO, Shopify Development, and Web Development. With a commitment to excellence and innovation, we help businesses thrive online.
+                Markoverment delivers top-notch digital solutions, encompassing Social Media Marketing, Digital Marketing, SEO, Shopify Development, Web Development, and Graphic Designing. Committed to excellence and innovation, we empower businesses to flourish in the digital realm. With our comprehensive suite of services, we cater to diverse needs and ensure your online success.
               </p>
               {/* <p className="mt-2 md:mt-3 text-center w-full lg:w-9/10">Additionally, our proficiency in Shopify Development and Web Development ensures that businesses have seamless, user-friendly online experiences tailored to their specific requirements. At Markoverment, we are committed to delivering innovative solutions that empower our clients to succeed in today's digital landscape.
               </p> */}
