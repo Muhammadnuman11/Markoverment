@@ -1,4 +1,4 @@
-import Web from "./web";
+import Web from "./Web";
 
 export default function page() {
   return (

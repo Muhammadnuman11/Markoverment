@@ -17,8 +17,8 @@ export default function DigitalMarketing() {
                         {/* Company Detail */}
                         <div className="z-9 h-4/5 w-4/5 md:w-full flex justify-end items-center flex-col text-white">
                             <h1 className="text-xl sm:text-4xl font-bold text-center w-full lg:w-[90%]">Digital Marketing</h1>
-                            <p className="mt-2 md:mt-3 text-justify w-full lg:w-[90%]">In the digital realm, effective digital marketing can make or break a business. At Markoverment, we specialize in crafting dynamic digital marketing strategies to help your brand shine. From engaging social media campaigns to strategic email marketing, we're here to boost your online presence and drive meaningful connections with your audience.</p>
-                            <p className="mt-2 md:mt-3 text-justify w-full lg:w-[90%]">Markoverment is your go-to partner for digital marketing success. With our tailored approach and expert insights, we help businesses like yours thrive in the digital age. Let us elevate your brand's visibility, increase your online reach, and drive measurable results that propel your business forward.</p>
+                            <p className="mt-2 md:mt-3 text-justify w-full lg:w-[90%]">In the digital realm, effective digital marketing can make or break a business. At Markoverment, we specialize in crafting dynamic digital marketing strategies to help your brand shine. From engaging social media campaigns to strategic email marketing, we&apos;re here to boost your online presence and drive meaningful connections with your audience.</p>
+                            <p className="mt-2 md:mt-3 text-justify w-full lg:w-[90%]">Markoverment is your go-to partner for digital marketing success. With our tailored approach and expert insights, we help businesses like yours thrive in the digital age. Let us elevate your brand&apos;s visibility, increase your online reach, and drive measurable results that propel your business forward.</p>
                         </div>
                     </div>
                     <div className="h-full w-full md:w-1/2 flex justify-end items-center flex-col">

@@ -18,7 +18,7 @@ export default function Shopify() {
                         <div className="z-9 h-4/5 w-4/5 md:w-full flex justify-end items-center flex-col text-white">
                             <h1 className="text-xl sm:text-4xl font-bold text-center w-full lg:w-[90%]">Shopify Development</h1>
                             <p className="mt-2 md:mt-3 text-justify w-full lg:w-[90%]">Shopify development is the cornerstone of a successful online store. At Markoverment, we specialize in creating bespoke Shopify solutions that elevate your brand and drive sales. From intuitive designs to seamless functionality, we ensure your Shopify store exceeds expectations and delivers a superior shopping experience.</p>
-                            <p className="mt-2 md:mt-3 text-justify w-full lg:w-[90%]">Elevate your e-commerce game with Markoverment's Shopify development expertise. Our team of experts crafts custom Shopify solutions tailored to your business needs, ensuring your online store stands out in a competitive market. Trust us to handle everything from design to deployment, so you can focus on growing your business.</p>
+                            <p className="mt-2 md:mt-3 text-justify w-full lg:w-[90%]">Elevate your e-commerce game with Markoverment&apos;s Shopify development expertise. Our team of experts crafts custom Shopify solutions tailored to your business needs, ensuring your online store stands out in a competitive market. Trust us to handle everything from design to deployment, so you can focus on growing your business.</p>
                         </div>
                     </div>
                     <div className="h-full w-full md:w-1/2 flex justify-end items-center flex-col">
