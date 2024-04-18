@@ -19,7 +19,7 @@ export default function Navbar() {
     };
 
     return (
-        <nav className={`p-6 w-full h-0 md:h-1/5 lg:h-1/4 md:flex absolute md:bg-transparent z-9 ${isOpen ? "bg-white h-3/4 rounded-ee-full" : ""}`}>
+        <nav className={`z-10 p-6 w-full h-0 md:h-1/5 lg:h-1/4 md:flex absolute md:bg-transparent z-9 ${isOpen ? "bg-white h-3/4 rounded-ee-full" : ""}`}>
             <div className="flex justify-between items-center relative">
                 <div className="block md:hidden">
                     <button

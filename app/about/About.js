@@ -30,7 +30,7 @@ export default function About() {
         </div>
 
         {/* Social Media Marketing */}
-        <div className="z-50 w-full flex justify-center items-center flex-col md:flex-row mt-8 md:mt-12">
+        <div className="w-full flex justify-center items-center flex-col md:flex-row mt-8 md:mt-12">
           <div className="h-full w-full md:w-1/2 flex justify-center items-center flex-col mb-5  md:mb-0">
             {/* Company Detail */}
             <div className="z-9 h-4/5 w-4/5 md:w-full flex justify-end items-center flex-col text-white">
@@ -48,7 +48,7 @@ export default function About() {
         </div>
 
         {/* Successfull Social Media Marketing */}
-        <div className="z-50 w-full flex justify-center items-center flex-col md:flex-row mt-8 md:mt-12">
+        <div className="w-full flex justify-center items-center flex-col md:flex-row mt-8 md:mt-12">
           <div className="h-full w-full md:w-1/2 flex justify-center items-center flex-col mb-5  md:mb-0">
             {/* Company Detail */}
             <div className="z-9 h-4/5 w-4/5 md:w-full flex justify-end items-center flex-col text-white">
@@ -65,7 +65,7 @@ export default function About() {
         </div>
 
         {/*  Social Media Optimization */}
-        <div className="z-50 w-full flex justify-center items-center flex-col md:flex-row mt-8 md:mt-12">
+        <div className="w-full flex justify-center items-center flex-col md:flex-row mt-8 md:mt-12">
           <div className="h-full w-full md:w-1/2 flex justify-center items-center flex-col mb-5  md:mb-0">
             {/* Company Detail */}
             <div className="z-9 h-4/5 w-4/5 md:w-full flex justify-end items-center flex-col text-white">

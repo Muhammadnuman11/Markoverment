@@ -4,7 +4,7 @@ import { ReactTyped } from "react-typed";
 import Clouds from "../public/header/Clouds.png";
 import Logo from "../public/header/Logo.png";
 import BuildingConnections from "../public/icons/building-connections.png";
-import Innovation from "../public/icons/Innovation.png";
+import Innovation from "../public/icons/innovation.png";
 import Complex from "../public/icons/complex-solutions.png";
 import Satisfuction from "../public/icons/customer-satisfuction.png";
 import Name from "../public/header/Name.png";
@@ -31,7 +31,7 @@ export default function Home() {
             <div className="z-9 h-2/5 w-4/5 flex justify-center items-center flex-col text-white mt-5 md:mt-0">
               <h1 className="text-xl sm:text-4xl font-bold">
                 <ReactTyped
-                  strings={['Social Media Marketing', 'Digital Marketing', 'Search Engine Optimization', 'Graphis Designing', 'Shopify Development', 'Web Development']}
+                  strings={['Social Media Marketing', 'Digital Marketing', 'Search Engine Optimization', 'Graphic Designing', 'Shopify Development', 'Web Development']}
                   typeSpeed={40}
                   loop
                 />
