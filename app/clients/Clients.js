@@ -20,25 +20,6 @@ export default function Clients() {
           <Image src={Clouds} priority={true} alt="Clouds" />
         </div>
 
-        {/* <div className="z-50 w-full flex flex-col md:flex-row">
-          <div className="h-full w-full md:w-1/2 flex justify-center items-center flex-col mt-5  md:mt-0">
-            Company Detail
-            <div className="z-9 h-4/5 w-4/5 md:w-3/4 flex justify-end items-center flex-col text-white">
-              <h1 className="text-xl sm:text-4xl font-bold">Clients</h1>
-              <p className="mt-2 md:mt-3 text-justify w-full lg:w-3/4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit porro at official dolor rerum? Dicta est vero.
-              </p>
-              <p className="mt-2 md:mt-3 text-justify w-full lg:w-3/4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit porro at official dolor rerum? Dicta est vero.
-              </p>
-            </div>
-          </div>
-          <div className="h-full w-full md:w-1/2 flex justify-end items-center flex-col">
-            Home Image
-            <div className="h-4/5 w-[90%] flex items-center justify-center md:justify-end flex-col">
-              <Image src={HomeImg} width={550} priority={true} alt="Company Name" />
-            </div>
-          </div>
-        </div> */}
-
         {/* Testimonies */}
         <div className="max-w-6xl pt-36 md:pt-72 mx-8 md:mx-10 lg:mx-20 xl:mx-auto">
           <div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">
@@ -48,10 +29,10 @@ export default function Clients() {
                 Words from Others
               </div>
               <h1 className="mb-5 text-3xl font-semibold text-white md:text-center md:text-5xl">
-                It's not just us.
+                It&apos;s not just us.
               </h1>
               <p className="text-xl text-gray-100 md:text-center md:text-2xl">
-                Here's what others have to say about us.
+                Here&apos;s what others have to say about us.
               </p>
             </div>
           </div>
