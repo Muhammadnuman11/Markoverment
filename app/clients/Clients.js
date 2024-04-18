@@ -5,6 +5,11 @@ import Samsung from "../../public/I-clients/samsung.png";
 import Western from "../../public/I-clients/western.png";
 import Souq from "../../public/I-clients/souq.png";
 import Minicabit from "../../public/I-clients/minicabit.png";
+// Clients
+import Serena from "../../public/clients/serena.png";
+import Grand from "../../public/clients/grand.png";
+import Mini from "../../public/clients/mini.png";
+import Chohan from "../../public/clients/chohan.jpg";
 
 export default function Clients() {
   return (
@@ -342,26 +347,18 @@ export default function Clients() {
           <p className="py-2 text-base max-w-2xl text-white text-center mb-4">
             At Markoverment we always care about our prestigious client for continued satisfaction, and their satisfactory reaction is our strength.
           </p>
-          <div
-            className="mx-auto w-full max-w-4xl justify-center items-center grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
-            <a target="_blank" href="">
-              <img alt="" className="h-20 invert mx-auto" src="https://www.svgrepo.com/show/442910/brand-apple.svg" />
-            </a>
-            <a target="_blank" href="">
-              <img alt="" className="h-20 invert mx-auto" src="https://www.svgrepo.com/show/443329/brand-pixar.svg" />
-            </a>
-            <a target="_blank" href="">
-              <img alt="" className="h-20 invert mx-auto" src="https://www.svgrepo.com/show/443079/brand-geforce.svg" />
-            </a>
-            <a target="_blank" href="">
-              <img alt="" className="h-20 invert mx-auto" src="https://www.svgrepo.com/show/443042/brand-ethereum.svg" />
-            </a>
-            <a target="_blank" href="">
-              <img alt="" className="h-20 invert mx-auto" src="https://www.svgrepo.com/show/443206/brand-line.svg" />
-            </a>
-            <a target="_blank" href="">
-              <img alt="" className="h-20 invert mx-auto" src="https://www.svgrepo.com/show/519278/slack.svg" />
-            </a>
+          <div className="w-[90%] max-w-4xl flex justify-between flex-wrap items-center">
+            <Image src={"https://www.svgrepo.com/show/442910/brand-apple.svg"} width={130} height={130} priority={true} alt="apple" className="invert" />
+            <Image src={"https://www.svgrepo.com/show/443329/brand-pixar.svg"} width={130} height={130} priority={true} alt="pixer" className="invert" />
+            <Image src={"https://www.svgrepo.com/show/443079/brand-geforce.svg"} width={130} height={130} priority={true} alt="geforce" className="invert" />
+            <Image src={"https://www.svgrepo.com/show/443042/brand-ethereum.svg"} width={130} height={130} priority={true} alt="ethereum" className="invert" />
+            <Image src={"https://www.svgrepo.com/show/443206/brand-line.svg"} width={130} height={130} priority={true} alt="line" className="invert" />
+            <Image src={"https://www.svgrepo.com/show/519278/slack.svg"} width={130} height={130} priority={true} alt="slack" className="invert" />
+            <Image src={Serena} width={130} height={130} priority={true} alt="serena" className="invert" />
+            <Image src={Grand} width={130} height={130} priority={true} alt="grand" className="" />
+            <Image src={Minicabit} width={130} height={130} priority={true} alt="minicabit" className="" />
+            <Image src={Mini} width={130} height={130} priority={true} alt="mini" className="invert" />
+            <Image src={Chohan} width={130} height={130} priority={true} alt="chohan" className="invert" />
           </div>
         </div>
 
