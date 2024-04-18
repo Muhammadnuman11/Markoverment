@@ -19,7 +19,7 @@ export default function Home() {
           <Image src={Clouds} priority={true} alt="Clouds" />
         </div>
 
-        <div className="z-50 w-full flex flex-col md:flex-row mt-36 md:mt-[224px]">
+        <div className="w-full flex flex-col md:flex-row mt-36 md:mt-[224px]">
           <div className="h-full w-full md:w-1/2 flex justify-center items-center flex-col md:mt-0">
             {/* Company Logo And Name */}
             <div className="z-9 h-3/5  w-full flex items-center justify-end flex-col">

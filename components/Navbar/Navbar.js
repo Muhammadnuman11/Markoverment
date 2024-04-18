@@ -19,7 +19,7 @@ export default function Navbar() {
     };
 
     return (
-        <nav className={`z-10 p-6 w-full h-0 md:h-1/5 lg:h-1/4 md:flex absolute md:bg-transparent z-9 ${isOpen ? "bg-white h-3/4 rounded-ee-full" : ""}`}>
+        <nav className={`z-10 p-6 w-full h-0 md:h-1/5 lg:h-1/4 md:flex absolute md:bg-transparent ${isOpen ? "bg-white h-3/4 rounded-ee-full" : ""}`}>
             <div className="flex justify-between items-center relative">
                 <div className="block md:hidden">
                     <button
@@ -56,7 +56,7 @@ export default function Navbar() {
                         </span>
                         {isDropdownOpen && (
                             <div
-                                className="z-10 absolute top-full left-0 bg-white divide-y divide-gray-100 rounded-lg shadow w-56 dark:bg-gray-700"
+                                className="absolute top-full left-0 bg-white divide-y divide-gray-100 rounded-lg shadow w-56 dark:bg-gray-700"
                             >
                                 <ul className="py-2 text-sm text-gray-700 dark:text-gray-200 font-normal">
                                     <li>
@@ -87,6 +87,21 @@ export default function Navbar() {
                                     <li>
                                         <Link href="/services/web-development" className={`block w-full px-4 py-2 hover:bg-gray-100 text-[#fbc040] md:text-black ${currentPath === "/services/web-development" ? "text-black md:text-[#fbc040]" : ""}`} onClick={() => setIsOpen(!isOpen)}>
                                             Web Development
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/services/web-development" className={`block w-full px-4 py-2 hover:bg-gray-100 text-[#fbc040] md:text-black ${currentPath === "/services/web-development" ? "text-black md:text-[#fbc040]" : ""}`} onClick={() => setIsOpen(!isOpen)}>
+                                            Content writing
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/services/web-development" className={`block w-full px-4 py-2 hover:bg-gray-100 text-[#fbc040] md:text-black ${currentPath === "/services/web-development" ? "text-black md:text-[#fbc040]" : ""}`} onClick={() => setIsOpen(!isOpen)}>
+                                            Content creation
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="/services/web-development" className={`block w-full px-4 py-2 hover:bg-gray-100 text-[#fbc040] md:text-black ${currentPath === "/services/web-development" ? "text-black md:text-[#fbc040]" : ""}`} onClick={() => setIsOpen(!isOpen)}>
+                                            Software as a service
                                         </Link>
                                     </li>
                                 </ul>
