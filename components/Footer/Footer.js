@@ -21,16 +21,16 @@ export default function Footer() {
                         </Link>
                         <ul className="flex items-center mb-4 text-sm font-medium md:mb-0 text-white">
                             <li>
-                                <Link href="/" className="hover:underline me-4 md:me-6">About</Link>
+                                <Link href="/about" className="hover:underline me-4 md:me-6">About</Link>
                             </li>
                             <li>
                                 <Link href="/" className="hover:underline me-4 md:me-6">Privacy Policy</Link>
                             </li>
                             <li>
-                                <Link href="/" className="hover:underline me-4 md:me-6">Licensing</Link>
+                                <Link href="/terms&conditions" className="hover:underline me-4 md:me-6">Terms & Conditions</Link>
                             </li>
                             <li>
-                                <Link href="/" className="hover:underline">Contact</Link>
+                                <Link href="/contact" className="hover:underline">Contact</Link>
                             </li>
                         </ul>
                         <div className="">

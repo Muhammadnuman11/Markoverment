@@ -22,7 +22,7 @@ export default function Home() {
         <div className="w-full flex flex-col md:flex-row mt-36 md:mt-[224px]">
           <div className="h-full w-full md:w-1/2 flex justify-center items-center flex-col md:mt-0">
             {/* Company Logo And Name */}
-            <div className="z-9 h-3/5  w-full flex items-center justify-end flex-col">
+            <div className="z-2 h-3/5  w-full flex items-center justify-end flex-col">
               <Image src={Logo} width={110} priority={true} alt="Company Logo" className="mb-5" />
               <Image src={Name} width={300} priority={true} alt="Company Name" />
             </div>
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
           <div className="h-full w-full md:w-1/2 flex justify-end items-center flex-col">
             {/* Home Image */}
-            <div className="h-4/5 w-[90%] flex items-center justify-center md:justify-end flex-col">
+            <div className="z-10 h-4/5 w-[90%] flex items-center justify-center md:justify-end flex-col">
               <Image src={HomeImg} width={550} priority={true} alt="Company Name" />
             </div>
           </div>
@@ -125,9 +125,7 @@ export default function Home() {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center">
               <p className="text-gray-400 my-3 flex items-center justify-center font-medium uppercase tracking-wider">Our Process</p>
-              <h2 className="block w-full bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent text-3xl sm:text-4xl">Launch your blog
-                in
-                4 easy steps
+              <h2 className="block w-full bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent text-3xl sm:text-4xl">Launch your blog in 4 easy steps
               </h2>
               <p className="mx-auto my-4 w-full max-w-xl bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-400">
                 Create your own blog with us and launch it with just 4 easy steps

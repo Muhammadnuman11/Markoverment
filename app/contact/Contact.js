@@ -1,6 +1,9 @@
 import Image from "next/image";
 import Clouds from "../../public/header/Clouds.png";
-// import HomeImg from "../../public/header/home.png";
+import Address from "../../public/icons/address.png";
+import Mail from "../../public/icons/mail.png";
+import Phone from "../../public/icons/phone.png";
+import Landline from "../../public/icons/landline.png";
 
 export default function Contact() {
   return (
@@ -26,15 +29,37 @@ export default function Contact() {
                 <div className="max-w-full mx-auto rounded-lg overflow-hidden">
                   <div className="px-6 py-4">
                     <h3 className="text-xl font-medium uppercase text-white">Pakistan Office</h3>
-                    <p className="mt-1 text-gray-400 font-light">Office# 3c, A Block Commercial Area, State Life Housing Society, Lahore, Punjab, PK</p>
-                    <p className="mt-1 text-gray-400 font-light">markoverment@gmail.com</p>
-                    <p className="mt-1 text-gray-400 font-light">+92 3261663665</p>
+                    <p className="mt-1 text-gray-400 font-light flex items-center">
+                      <Image src={Address} width={36} priority={true} alt="address" className="invert-[70%] pe-2 py-3" />
+                      Office# 3c, A Block Commercial Area, State Life Housing Society, Lahore, Punjab, PK
+                    </p>
+                    <p className="mt-1 text-gray-400 font-light flex items-center">
+                      <Image src={Mail} width={36} priority={true} alt="mail" className="invert-[70%] pe-3 py-3" />
+                      markoverment@gmail.com
+                    </p>
+                    <p className="mt-1 text-gray-400 font-light flex items-center">
+                      <Image src={Phone} width={36} priority={true} alt="phone" className="invert-[70%] pe-3 py-3" />
+                      +92 3261663665
+                    </p>
+                    <p className="mt-1 text-gray-400 font-light flex items-center">
+                      <Image src={Landline} width={36} priority={true} alt="landline" className="invert-[70%] pe-3 py-3" />
+                      042 35460772
+                    </p>
                   </div>
                   <div className="px-6 py-4">
                     <h3 className="text-xl font-medium uppercase text-white">Australia Office</h3>
-                    <p className="mt-1 text-gray-400 font-light">12 shen street, Schofields, NSW, Australia, New South Wales</p>
-                    <p className="mt-1 text-gray-400 font-light">markoverment@gmail.com</p>
-                    <p className="mt-1 text-gray-400 font-light">+61 2 8007 3598</p>
+                    <p className="mt-1 text-gray-400 font-light flex items-center">
+                      <Image src={Address} width={36} priority={true} alt="address" className="invert-[70%] pe-2 py-3" />
+                      12 shen street, Schofields, NSW, Australia, New South Wales
+                    </p>
+                    <p className="mt-1 text-gray-400 font-light flex items-center">
+                      <Image src={Mail} width={36} priority={true} alt="mail" className="invert-[70%] pe-3 py-3" />
+                      markoverment@gmail.com
+                    </p>
+                    <p className="mt-1 text-gray-400 font-light flex items-center">
+                      <Image src={Phone} width={36} priority={true} alt="phone" className="invert-[70%] pe-3 py-3" />
+                      +61 2 8007 3598
+                    </p>
                   </div>
                 </div>
               </div>
@@ -46,9 +71,8 @@ export default function Contact() {
         <div className="container mx-auto px-5 py-24">
 
           <div className="mb-12 flex w-full flex-col text-center">
-            <h1 className="title-font mb-4 text-2xl font-medium text-white sm:text-3xl">Contact Us</h1>
-            <p className="mx-auto text-base leading-relaxed md:w-2/3 lg:w-1/2 text-gray-300">Feel free to reach out to us! Whether you have a question,
-              feedback, or a collaboration proposal, we&apos;d love to hear from you.
+            <h1 className="text-3xl font-extrabold text-gray-300">Contact Us</h1>
+            <p className="mt-4 text-lg text-gray-300 md:w-2/3 lg:w-1/2 mx-auto">Feel free to reach out to us! Whether you have a question, feedback, or a collaboration proposal, we&apos;d love to hear from you.
             </p>
           </div>
 
