@@ -5,6 +5,17 @@ import Samsung from "../../public/I-clients/samsung.png";
 import Western from "../../public/I-clients/western.png";
 import Souq from "../../public/I-clients/souq.png";
 import Minicabit from "../../public/I-clients/minicabit.png";
+import Unicef from "../../public/I-clients/unicef.png";
+import Degree from "../../public/I-clients/degree60.jpg";
+import Velox from "../../public/I-clients/velox-logo.png";
+import OnePackagingHub from "../../public/I-clients/one-packaging-hub.png";
+import DelayDollar from "../../public/I-clients/delay-dollar.png";
+import Express from "../../public/I-clients/express.jpeg";
+import Fajar from "../../public/I-clients/fajar.png";
+import InitiativeHK from "../../public/I-clients/initiativeHK.png";
+import Libas from "../../public/I-clients/libas.jpg";
+import Selrosa from "../../public/I-clients/selrosa.png";
+import Aino1 from "../../public/I-clients/aino1.png";
 // Clients
 import Serena from "../../public/clients/serena.png";
 import Grand from "../../public/clients/grand.png";
@@ -336,8 +347,8 @@ export default function Clients() {
             <Image src={"https://www.svgrepo.com/show/443206/brand-line.svg"} width={130} height={130} priority={true} alt="line" className="invert" />
             <Image src={"https://www.svgrepo.com/show/519278/slack.svg"} width={130} height={130} priority={true} alt="slack" className="invert" />
             <Image src={Serena} width={130} height={130} priority={true} alt="serena" className="invert" />
-            <Image src={Grand} width={130} height={130} priority={true} alt="grand" className="" />
-            <Image src={Minicabit} width={130} height={130} priority={true} alt="minicabit" className="" />
+            <Image src={Grand} width={130} height={130} priority={true} alt="grand"  />
+            <Image src={Minicabit} width={130} height={130} priority={true} alt="minicabit"  />
             <Image src={Mini} width={130} height={130} priority={true} alt="mini" className="invert" />
             <Image src={Chohan} width={130} height={130} priority={true} alt="chohan" className="invert" />
           </div>
@@ -352,11 +363,43 @@ export default function Clients() {
           <p className="text-base max-w-2xl text-white text-center mb-4">
             We look forward to the opportunities to serve international clients because more than any other project, these give our consultants and our clients the opportunity to learn from each other.
           </p>
-          <div className="w-[90%] max-w-4xl flex justify-between flex-wrap items-center">
+          <div className="w-[90%] max-w-4xl flex flex-wrap justify-evenly items-center gap-y-8 gap-x-12 md:gap-x-24 mt-8">
             <Image src={Samsung} width={130} priority={true} alt="samsung" />
-            <Image src={Western} width={130} priority={true} alt="western" className="invert" />
+            <Image src={Western} width={100} priority={true} alt="western" className="bg-white p-1" />
             <Image src={Souq} width={130} priority={true} alt="souq" />
             <Image src={Minicabit} width={130} priority={true} alt="minicabit" />
+            {/* verve svg */}
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 130.827 34.922" className="w-24 bg-white p-1 mx-4">
+              <g id="Group_379" data-name="Group 379" transform="translate(-1219.243 -355.11)">
+                <g id="Group_276" data-name="Group 276" transform="translate(1219.243 355.11)">
+                  <path id="Path_873" data-name="Path 873" d="M1251.464,383.862a6.127,6.127,0,0,1-.672,2.8l-.308.534,0,0a6.151,6.151,0,0,1-10.424-.149l-.03-.052-.067-.115-.009-.015-15.834-27.426c-.187-.309-.687-.977-.687-.977a9.032,9.032,0,0,0-4.007-2.847.26.26,0,0,1,.077-.508h11.54a9.026,9.026,0,0,1,7.217,4.238l.006.009.291.5,11.99,20.768v0l.187.324,0,0,0,.006A6.133,6.133,0,0,1,1251.464,383.862Z" transform="translate(-1219.243 -355.11)"></path>
+                  <path id="Path_874" data-name="Path 874" d="M1350.562,360.7a5.566,5.566,0,0,1-.612,2.547l0,0v0l0,0-5.966,10.332-8.168-14.148v0a9.04,9.04,0,0,0-4.651-3.809l-.01,0-.047-.017h0a.257.257,0,0,1-.149-.234.261.261,0,0,1,.26-.26H1345.2A5.592,5.592,0,0,1,1350.562,360.7Z" transform="translate(-1304.882 -355.11)"></path>
+                </g>
+                <g id="Group_277" data-name="Group 277" transform="translate(1274.453 355.577)">
+                  <path id="Path_875" data-name="Path 875" d="M1455.818,357.11h4.407l3.229,9,3.229-9h4.325l-5.767,14.316h-3.655Z" transform="translate(-1455.818 -357.11)"></path>
+                  <path id="Path_876" data-name="Path 876" d="M1530.152,357.11h11.433v3.35h-7.533v2.153h6.823v3.107h-6.823v2.254h7.635v3.35h-11.534Z" transform="translate(-1512.805 -357.11)"></path>
+                  <path id="Path_877" data-name="Path 877" d="M1592.521,357.11h6.722a6.211,6.211,0,0,1,4.63,1.543,4.407,4.407,0,0,1,1.259,3.31V362a4.5,4.5,0,0,1-2.924,4.366l3.391,4.955h-4.549l-2.863-4.305h-1.726v4.305h-3.939Zm6.539,6.823c1.34,0,2.112-.65,2.112-1.686v-.041c0-1.117-.812-1.685-2.132-1.685h-2.579v3.412Z" transform="translate(-1560.619 -357.11)"></path>
+                  <path id="Path_878" data-name="Path 878" d="M1652.689,357.11h4.407l3.229,9,3.228-9h4.326l-5.767,14.316h-3.655Z" transform="translate(-1606.745 -357.11)"></path>
+                  <path id="Path_879" data-name="Path 879" d="M1726.912,357.11h11.432v3.35h-7.534v2.153h6.823v3.107h-6.823v2.254h7.635v3.35h-11.534Z" transform="translate(-1663.647 -357.11)"></path>
+                  <path id="Path_880" data-name="Path 880" d="M1458.6,448.839V448.8a7.379,7.379,0,0,1,7.656-7.392,8.29,8.29,0,0,1,5.767,2.071l-2.315,2.782a5.015,5.015,0,0,0-3.432-1.34,3.734,3.734,0,0,0-3.635,3.9v.04a3.755,3.755,0,0,0,3.859,3.94,4.017,4.017,0,0,0,2.274-.589v-1.726h-2.8V447.6h6.539V454a9.611,9.611,0,0,1-6.173,2.193C1461.913,456.19,1458.6,453.144,1458.6,448.839Z" transform="translate(-1457.953 -421.735)"></path>
+                  <path id="Path_881" data-name="Path 881" d="M1527.6,442.625h6.721a6.211,6.211,0,0,1,4.63,1.543,4.407,4.407,0,0,1,1.259,3.31v.041a4.5,4.5,0,0,1-2.924,4.366l3.391,4.955h-4.548l-2.864-4.305h-1.726v4.305H1527.6Zm6.538,6.823c1.34,0,2.112-.65,2.112-1.686v-.041c0-1.117-.812-1.685-2.132-1.685h-2.579v3.412Z" transform="translate(-1510.85 -422.668)"></path>
+                  <path id="Path_882" data-name="Path 882" d="M1588.072,448.839V448.8a7.661,7.661,0,0,1,15.311-.04v.04a7.661,7.661,0,0,1-15.311.041Zm11.29,0V448.8a3.694,3.694,0,0,0-3.655-3.838,3.622,3.622,0,0,0-3.594,3.8v.04a3.69,3.69,0,0,0,3.635,3.838A3.627,3.627,0,0,0,1599.362,448.839Z" transform="translate(-1557.208 -421.735)"></path>
+                  <path id="Path_883" data-name="Path 883" d="M1661.68,450.606v-7.981h4v7.9c0,2.051,1.035,3.026,2.619,3.026s2.62-.934,2.62-2.924v-8h4V450.5c0,4.589-2.62,6.6-6.661,6.6S1661.68,455.053,1661.68,450.606Z" transform="translate(-1613.638 -422.668)"></path>
+                  <path id="Path_884" data-name="Path 884" d="M1728.416,442.625h6.092c3.594,0,5.91,1.848,5.91,5v.041c0,3.35-2.579,5.117-6.113,5.117h-1.949v4.061h-3.939Zm5.807,7.067c1.4,0,2.254-.731,2.254-1.848V447.8c0-1.218-.853-1.868-2.274-1.868h-1.848v3.757Z" transform="translate(-1664.8 -422.668)"></path>
+                </g>
+              </g>
+            </svg>
+            <Image src={Unicef} width={130} priority={true} alt="unicef" />
+            <Image src={Degree} width={130} priority={true} alt="degree60"  />
+            <Image src={Velox} width={100} priority={true} alt="velox" />
+            <Image src={OnePackagingHub} width={150} priority={true} alt="one packaging hub" className="bg-white p-1 "/>
+            <Image src={DelayDollar} width={130} priority={true} alt="delay dollar" />
+            <Image src={Express} width={130} priority={true} alt="express" />
+            <Image src={Fajar} width={130} priority={true} alt="fajar" />
+            <Image src={InitiativeHK} width={130} priority={true} alt="initiative HK" />
+            <Image src={Libas} width={100} priority={true} alt="libas" />
+            <Image src={Selrosa} width={130} priority={true} alt="selrosa" />
+            <Image src={Aino1} width={130} priority={true} alt="aino1" />
           </div>
         </div>
 

@@ -50,7 +50,7 @@ export default function Contact() {
                     <h3 className="text-xl font-medium uppercase text-white">Australia Office</h3>
                     <p className="mt-1 text-gray-400 font-light flex items-center">
                       <Image src={Address} width={36} priority={true} alt="address" className="invert-[70%] pe-2 py-3" />
-                      12 shen street, Schofields, NSW, Australia, New South Wales
+                      Unit 4/14 Brumby St, Seven Hills NSW 2147, Australia
                     </p>
                     <p className="mt-1 text-gray-400 font-light flex items-center">
                       <Image src={Mail} width={36} priority={true} alt="mail" className="invert-[70%] pe-3 py-3" />
