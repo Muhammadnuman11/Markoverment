@@ -24,7 +24,7 @@ export default function PrivacyPolicy() {
                 <div className="h-full w-full md:w-1/2 flex justify-end items-center flex-col pt-24 md:pt-56">
                     {/* Terms Image */}
                     <div className="z-10 h-4/5 w-[90%] flex items-center justify-center md:justify-end flex-col">
-                        <Image src={Privacy} priority={true} alt="Privacy Policy" className="inver" />
+                        <Image src={Privacy} priority={true} alt="Privacy Policy" />
                     </div>
                 </div>
             </div>
@@ -137,7 +137,7 @@ export default function PrivacyPolicy() {
                     Depending on where you live, you may have some or all of the rights listed below in relation to your personal information. However, these rights are not absolute, may apply only in certain circumstances and, in certain cases, we may decline your request as permitted by law.
                     <ul className="my-2 ps-5 list-disc">
                         <li>
-                            Right to Access / Know. You may have a right to request access to personal information that we hold about you, including details relating to the ways in which we use and share your information.
+                            Right to Access Know. You may have a right to request access to personal information that we hold about you, including details relating to the ways in which we use and share your information.
                         </li>
                         <li>
                             Right to Delete. You may have a right to request that we delete personal information we maintain about you.
