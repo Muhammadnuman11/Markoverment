@@ -85,10 +85,22 @@ export default function Contact() {
                   <label for="name" className="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-[#fbbb37] transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2  peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-[#fbbb37]">Name</label>
                 </div>
               </div>
-              <div className="w-full md:w-1/2 p-2">
+              <div className="w-full md:w-1/2 px-2 py-3">
                 <div className="relative">
                   <input type="email" id="email" name="email" className="peer w-full rounded border border-gray-400 bg-transparent py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-[#fbbb37] focus:ring-0" placeholder="Email" />
                   <label for="email" className="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-[#fbbb37] transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2  peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-[#fbbb37]">Email</label>
+                </div>
+              </div>
+              <div className="w-full md:w-1/2 px-2 py-3">
+                <div className="relative">
+                  <input type="number" id="phone" name="phone" className="peer w-full rounded border border-gray-400 bg-transparent py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-[#fbbb37] focus:ring-0" placeholder="Phone" />
+                  <label for="phone" className="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-[#fbbb37] transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2  peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-[#fbbb37]">Phone</label>
+                </div>
+              </div>
+              <div className="w-full md:w-1/2 p-2">
+                <div className="relative">
+                  <input type="text" id="country" name="country" className="peer w-full rounded border border-gray-400 bg-transparent py-1 px-3 text-base leading-8 text-gray-100 placeholder-transparent outline-none transition-colors duration-200 ease-in-out focus:border-[#fbbb37] focus:ring-0" placeholder="Country" />
+                  <label for="country" className="absolute left-3 -top-6 bg-transparent text-sm leading-7 text-[#fbbb37] transition-all peer-placeholder-shown:left-3 peer-placeholder-shown:top-2  peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-focus:left-3 peer-focus:-top-6 peer-focus:text-[#fbbb37]">Country</label>
                 </div>
               </div>
               <div className="mt-4 w-full p-2">
