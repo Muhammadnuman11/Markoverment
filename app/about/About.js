@@ -7,12 +7,12 @@ export default function About() {
     <>
       <div className="pattern relative flex flex-col">
         {/* Clouds */}
-        <div className="absolute right-5 top-3  md:top-9 lg:top-14 w-2/5">
+        <div className="z-10 absolute right-5 top-3  md:top-9 lg:top-14 w-2/5">
           <Image src={Clouds} priority={true} alt="Clouds" />
         </div>
 
         {/* About Paragraph */}
-        <div className="z-50 w-full flex justify-center items-center flex-col md:flex-row mt-36 md:mt-[224px]">
+        <div className="z-10 w-full flex justify-center items-center flex-col md:flex-row mt-36 md:mt-[224px]">
           <div className="h-full w-full md:w-1/2 flex justify-center items-center flex-col mb-5  md:mb-0">
             {/* Company Detail */}
             <div className="z-9 h-4/5 w-4/5 md:w-full flex justify-end items-center flex-col text-white">

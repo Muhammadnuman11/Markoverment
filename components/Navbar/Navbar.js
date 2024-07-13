@@ -19,7 +19,7 @@ export default function Navbar() {
     };
 
     return (
-        <nav className={`z-10 p-6 w-full h-0 md:h-1/5 lg:h-1/4 md:flex absolute md:bg-transparent ${isOpen ? "bg-white h-3/4 rounded-ee-full" : ""}`}>
+        <nav className={`z-[100] p-6 w-full h-0 md:h-1/5 lg:h-1/4 md:flex absolute md:bg-transparent ${isOpen ? "bg-white h-3/4 rounded-ee-full" : ""}`}>
             <div className="flex justify-between items-center relative">
                 <div className="block md:hidden">
                     <button
@@ -56,7 +56,7 @@ export default function Navbar() {
                         </span>
                         {isDropdownOpen && (
                             <div
-                                className="absolute top-full left-0 bg-white divide-y divide-gray-100 rounded-lg shadow w-56 dark:bg-gray-700"
+                                className="z-100 absolute top-full left-0 bg-white divide-y divide-gray-100 rounded-lg shadow w-56 dark:bg-gray-700"
                             >
                                 <ul className="py-2 text-sm text-gray-700 dark:text-gray-200 font-normal">
                                     <li>

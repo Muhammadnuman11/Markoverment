@@ -12,7 +12,7 @@ export default function SEO() {
                 </div>
 
                 {/* Products Paragraph */}
-                <div className="z-50 w-full flex justify-center items-center flex-col md:flex-row mt-36 md:mt-[224px]">
+                <div className="z-10 w-full flex justify-center items-center flex-col md:flex-row mt-36 md:mt-[224px]">
                     <div className="h-full w-full md:w-1/2 flex justify-center items-center flex-col mb-5  md:mb-0">
                         {/* Company Detail */}
                         <div className="z-9 h-4/5 w-4/5 md:w-full flex justify-end items-center flex-col text-white">
@@ -21,7 +21,7 @@ export default function SEO() {
                             <p className="mt-2 md:mt-3 text-justify w-full lg:w-[90%]">At Markoverment, our dedicated team of SEO specialists works tirelessly to enhance your online presence. Through meticulous research and innovative strategies, we drive organic traffic to your website, helping you achieve long-term success in the digital realm.</p>
                         </div>
                     </div>
-                    <div className="h-full w-full md:w-1/2 flex justify-end items-center flex-col">
+                    <div className="z-100 h-full w-full md:w-1/2 flex justify-end items-center flex-col">
                         {/* Home Image */}
                         <div className="h-4/5 w-[90%] flex items-center justify-center md:justify-end flex-col">
                             <Image src={HomeImg} width={550} priority={true} alt="Company Name" />

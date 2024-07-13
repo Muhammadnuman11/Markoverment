@@ -12,7 +12,7 @@ export default function DigitalMarketing() {
                 </div>
 
                 {/* Products Paragraph */}
-                <div className="z-50 w-full flex justify-center items-center flex-col md:flex-row mt-36 md:mt-[224px]">
+                <div className="z-10 w-full flex justify-center items-center flex-col md:flex-row mt-36 md:mt-[224px]">
                     <div className="h-full w-full md:w-1/2 flex justify-center items-center flex-col mb-5  md:mb-0">
                         {/* Company Detail */}
                         <div className="z-9 h-4/5 w-4/5 md:w-full flex justify-end items-center flex-col text-white">
